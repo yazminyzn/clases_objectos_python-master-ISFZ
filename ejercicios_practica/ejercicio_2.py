@@ -8,6 +8,10 @@ class Jugador():
     def obtener_puntaje(self):
         return self.puntaje
 
+    # Método nuevo solicitado:
+    def agregar_puntaje(self, puntos):
+        self.puntaje += puntos
+
 
 if __name__ == "__main__":
     print("Comencemos a practicar con objetos")
@@ -48,6 +52,5 @@ if __name__ == "__main__":
     # Ya que hemos agregado 5 puntos
     puntaje = jugador1.obtener_puntaje()
     print("Nuevo puntaje del jugador:", puntaje)
-
 
     print("terminamos")
